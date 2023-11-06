@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(187, 187, 248);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container{
+    margin: 70px;
+    height: 500px;
+    width: 310px;
+    background-color: white;
+    border-radius: 14px;
+
+}
+
+.bluebox{
+    position: relative;
+    left: 15px;
+    right: 40px;
+    top: 18px;
+    width: 280px;
+    height: 300px;
+    background-color: rgb(122, 122, 245);
+    border-radius: 12px;
+    display: grid;
+    place-items: center;
+}
+
+#paradiv{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.headfont{
+    margin-top: 40px;
+    font-weight: 900;
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.para{
+    width: 280px;
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+img{
+    
+    width: 200px;
+}
